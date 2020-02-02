@@ -12,6 +12,7 @@ class MyApp extends StatelessWidget {
       home: AllCountries(),
       routes: {
         CountryMap.routeName: (ctx) => CountryMap(),
+        Country.routeName: (ctx) => Country(),
       },
     );
   }
